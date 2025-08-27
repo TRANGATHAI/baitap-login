@@ -1,0 +1,162 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: darkslategray;
+  padding: 40px;
+}
+
+h2{
+    text-align: left;
+}
+.form-box {
+  display: flex;
+  gap: 0;
+}
+
+.form-left {
+  flex: 1;
+  background-color: #4da6ff; 
+  padding: 20px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.login-btn {
+  margin-left: 200px;
+  width: 30%;
+  padding: 10px;
+  background-color: brown;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+input[type="text"]{
+     width: 300px;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+}
+input[type="password"] {
+  width: 300px;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.radio {
+  
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.login-btn:hover {
+  background-color: #0073e6;
+}
+
+
+.form-right {
+  width: 200px;
+  background-color: #555; 
+  padding: 20px;
+
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 100px;
+}
+
+.link-item {
+  margin-bottom: 20px;
+}
+
+.link-item-forgot {
+  font-weight: bold;
+  color: #0073e6;
+  font-size: 14px;
+  display: block;
+}
+
+.link-item-forgot-ifor {
+  font-size: 12px;
+  color: white;
+  margin-top: 4px;
+  display: block;
+}
+.link-item-REGISTER{
+     font-weight: bold;
+  color: #0073e6;
+  font-size: 14px;
+  display: block; 
+}
+.link-item-REGISTER-idon {
+  font-size: 12px;
+  color: white;
+  margin-top: 4px;
+  display: block;
+}
+.link-item-HELP{
+     font-weight: bold;
+  color: #0073e6;
+  font-size: 14px;
+  display: block; 
+}
+.link-item-HELP-ineed {
+  font-size: 12px;
+  color: white;
+  margin-top: 4px;
+  display: block;
+}
+.button-states {
+
+margin-right: 150px;
+  margin-top: 50px;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+.login-btn-static{
+    background-color: #0073e6;
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+    width: 100px;
+}
+.login-btn-hover{
+    background-color: #0073e6;
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+    width: 100px;
+}
+.login-btn-press{
+    background-color: #0073e6;
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+    width: 100px;
+}
+.login-btn-static:hover{
+    background-color: aqua;
+}
+.login-btn-hover:hover{
+    background-color: aqua;
+}
+.login-btn-press:hover{
+    background-color: aqua;
+}
